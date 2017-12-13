@@ -1,0 +1,160 @@
+html{
+	background-image: linear-gradient(150deg,#bcdcebd9, #4f90b2);
+}
+
+body{ 
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px; line-height: 1.5;
+	background: #f2eee9;
+	margin: 0 auto;
+  max-width: 50em;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.geaux{
+	color: purple;
+}
+.skill{
+	height: 10em;
+	position: relative;
+	border: solid black 1px;
+	border-left: none;
+	border-right: none;
+}
+ul a{
+	color: black;
+}
+
+
+a:hover{ 
+	color: red;
+  transition: 0.5s;
+}
+@media (max-width: 991px) {
+  #intro{
+  	background-image: linear-gradient(150deg,#bcdcebd9, #4f90b2);
+  	transition: 1s;
+  }
+}
+
+.skill_icon{
+	width: 10em;
+	height: 10em;
+	padding: 1em;
+	display: flex;
+  justify-content: center; 
+  text-align: center;
+  align-items: center;
+	position: absolute;
+	background-color: #63899c;
+}
+@keyframes slide{
+	0% { color:transparent;}
+	100% {color:black;}
+}
+.no_text{
+	color:transparent;
+}
+.text_fade{
+  animation: slide 3s ease-in;
+}
+.skill_description{
+	background-color: #e3f0f1;
+	padding: 3em;
+	width: auto;
+	height: inherit;
+	margin-left: 10em;
+}
+article{
+	text-align: left;
+	background: white;
+	overflow: hidden;
+}
+header{
+	position: relative;
+	z-index: 1;
+}
+article p{
+	margin: 1em 3em;
+}
+h1{
+	font-size: 3em;
+	text-align: center;
+	margin: 20px 0;
+}
+h3{
+	padding: 1em;
+	font-size: 2em;
+	text-align: center;
+	background-color: grey;
+}
+h4{
+	font-size: 1.3em;
+}
+sidebar{
+	display: none;
+}
+section{
+	overflow: hidden;
+}
+.intro{
+	background-image: url(american.jpg);
+	background-size: 115%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+  background-position: center;
+  box-shadow: 0px 0px 10px 0px rgba(65, 56, 56, 0.57);
+  position: relative;
+}
+.two{
+	clear: both;
+}
+.one {
+	margin: 20px auto;
+	height: 200px;
+	width: 200px;
+	border-color: silver;
+	border-style: solid;
+	border-width: 5px;
+	overflow: hidden;
+}
+.head_list{
+	background: #e50005f7;
+	font-size: 1.5em;
+	overflow: hidden;
+}
+.head_list li{
+	display: inline;
+	padding: 10px 10px;
+}
+.head_list li:hover{
+	background: #316691;
+	transition: 1s;
+}
+a{ text-decoration: none;}
+q,
+blockquote{
+  background: hsla(4, 100%, 50%, 0.5);
+  color: rgba(255, 0, 0, 0.5);
+  border-color: yellow; 
+  border-style: solid; 
+  border-width: 1px;
+  padding: 30px;
+}
+footer{
+	background: pink;
+	padding: 1em;
+	text-align: center;
+}
+#heart{
+	margin-left: 0.5em;
+	height: 0.7em;
+	animation: bounce 0.5s ease 0.2s infinite alternate both;
+}
+@keyframes bounce{
+	0% {transform: scale(1);}
+	100% {transform: scale(1.5);}
+}
+
+input:hover{
+  border-color: blue;
+}

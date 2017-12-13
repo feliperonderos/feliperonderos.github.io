@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito|Ubuntu|Spectral+SC" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript">
+		triggered = false;
+    window.addEventListener('load', function() {
+      var x = document.getElementsByClassName("skill");
+    	for (i=0;i<x.length;i++){
+    	  x[i].classList.add("no_text");
+      }
+    });
+		window.addEventListener('scroll', function(e) {
+		  var x = document.getElementsByClassName("skill");
+    	for (i=0;i<x.length;i++){
+    	  x[i].classList.add("text_fade");
+    	  x[i].classList.remove("no_text");
+      }
+		});
+		</script>
+		<meta name="description" content="Information about Felipe Ronderos">
+	</head>
+	<body>
+	  <header>
+		<nav>
+		  <ul class="head_list">
+				<a href="resume.pdf" target="_blank"><li>Resume</li></a><a href="mailto:feliperonderos@gmail.com"><li>Contact</li></a>
+		  </ul>
+		</nav>
+		</header>
+		<main>
+			<section id="intro" class="intro">
+				<h1>Felipe Ronderos</h1>
+				<div class="one">
+					<img src="felipe.jpg">
+				</div>
+			</section>
+			<section class="two">
+				<article class="article">
+				  <h3>Hi, <em>it's nice to see you here!</em><br></h3>
+				  <p>
+				  	My name is Felipe Ronderos and I'm a Software Developer at American Airlines and graduate of <a href="https://www.lsu.edu" target="_blank">Louisiana State University </a>
+				  	(<em class="geaux">geaux tigers!</em>) with a B.S. in Computer Science. I am a resourceful, self-driven, individual who enjoys working on challenging, interesting problems and learning about how things work. In my personal life, I enjoy outdoor activities such as hiking, skiing and playing golf.
+				  </p>
+				  <p>
+				  	If you would like to know more, don't be afraid to <a href="mailto:feliperonderos@gmail.com">reach out</a> or browse through my <a href="resume.pdf" target="_blank">resume</a>. I look forward to hearing from you! 
+				  </p>
+				</article>
+			</section>
+			<h3>Skills</h3>
+			<section>
+			  <div class="skill">
+			    <div class="skill_icon"><h4>Development</h4></div>
+			    <p class="skill_description">Proficient in development of Software. 
+			    Object Oriented and Functional programming. Web, mobile and low level.<p>
+			  </div>
+			  <div class="skill">
+			    <div class="skill_icon"><h4>Data</h4></div>
+			    <p class="skill_description">Relational and noSQL Databases. Tools such as hadoop. Comfortable dealing with data<p>
+			  </div>
+			  <div class="skill">
+			    <div class="skill_icon"><h4>Other Interests</h4></div>
+			    <p class="skill_description">Business and Finance. Enjoy realize that software needs users value to survive.<p>
+			  </div>
+			  <div class="skill">
+			    <div class="skill_icon"><h4>Languages</h4></div>
+			    <p class="skill_description">Bilingual Spanish and English. Comfortable with other cultures and 
+			    points of view. Working towards German.<p>
+			  </div>
+				  <!--
+				  <p>
+						<a href="#footer">See Footer</a>
+						Felipe once said <q>I am a moron.</q> He also likes to eat poop. 
+						<strong>This</strong> is what people think of him.
+					</p>
+					<blockquote>
+					  <p>
+					  	Felipe is dumb
+					    Felipe is dumb
+					    Felipe is dumb
+					    Felipe is dumb
+					    Felipe is dumb
+					  </p>
+					</blockquote>
+					<p>
+					  - Celine Richard
+
+					  THIS will appear after 5 seconds
+					</p>
+				</article>
+				<form>
+				  <h3>Sign up for my blog</h3>
+				  <p>
+				  	<label for="email">Email</label><br>
+				  	<input id ="email" placeholder="email" type="email">
+				  </p>
+				  <p>
+				  	<input type="password">
+				  </p>
+				  <p>
+				  	<label>
+					    <input type="checkbox" checked> Use as my billing address
+					  </label>
+				  </p>
+				  <p>
+				  	<input type="submit">
+				  </p>
+				</form>
+				-->
+			</section>
+		</main>
+		<footer id="footer">
+			Made by Felipe with <img id="heart" src="heart.svg">
+		</footer>
+	</body>
+</html>
